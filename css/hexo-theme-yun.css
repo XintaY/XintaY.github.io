@@ -1303,7 +1303,7 @@ input {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: left;
-  margin: 1em 3em 0 3em !important;
+  margin: 1em 1em 0 1em !important;
   font-family: "Garamond", serif !important;
 }
 .post-card-content {
