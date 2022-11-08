@@ -124,7 +124,7 @@ html.dark {
   --hty-secondary-text-color: #555;
   --post-block-bg-color: #fff;
   --smc-link-color: #0078e7;
-  --yun-bg-image: url("/images/3.jpeg");
+  --yun-bg-image: url("/images/3-10.jpeg");
   --banner-line-color: #000;
   --banner-char-color: #000;
 }
@@ -294,14 +294,14 @@ body::before {
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 0.4;
+  opacity: 0.5;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 0.4;
+    opacity: 0.5;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -309,7 +309,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.4;
+    opacity: 0.5;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -317,7 +317,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.4;
+    opacity: 0.5;
   }
 }
 @keyframes bgFadeIn {
@@ -325,7 +325,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.4;
+    opacity: 0.5;
   }
 }
 body {
@@ -1709,8 +1709,8 @@ input {
 }
 .hamburger-box {
   outline: none;
-  width: 27px;
-  height: 21px;
+  width: 25px;
+  height: 18px;
   display: inline-block;
   position: relative;
 }
@@ -1721,8 +1721,8 @@ input {
 .hamburger-inner,
 .hamburger-inner::before,
 .hamburger-inner::after {
-  width: 27px;
-  height: 3px;
+  width: 25px;
+  height: 2px;
   background-color: #0078e7;
   border-radius: 3px;
   position: absolute;
@@ -1733,10 +1733,10 @@ input {
   display: block;
 }
 .hamburger-inner::before {
-  top: -9px;
+  top: -8px;
 }
 .hamburger-inner::after {
-  bottom: -9px;
+  bottom: -8px;
 }
 .hamburger--spin .hamburger-inner {
   transition-duration: 0.22s;
