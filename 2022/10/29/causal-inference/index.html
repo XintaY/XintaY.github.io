@@ -23,8 +23,12 @@ document.addEventListener("DOMContentLoaded", () => {
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="http://example.com/tikz/1.png">
 <meta property="og:image" content="http://example.com/tikz/2.png">
+<meta property="og:image" content="http://example.com/tikz/3.png">
+<meta property="og:image" content="http://example.com/tikz/4.png">
+<meta property="og:image" content="http://example.com/tikz/5.png">
+<meta property="og:image" content="http://example.com/tikz/6.png">
 <meta property="article:published_time" content="2022-10-29T15:08:42.066Z">
-<meta property="article:modified_time" content="2022-11-13T05:12:17.884Z">
+<meta property="article:modified_time" content="2022-11-27T02:46:13.399Z">
 <meta property="article:author" content="Xinta Yang">
 <meta property="article:tag" content="causal inference">
 <meta name="twitter:card" content="summary">
@@ -49,9 +53,9 @@ IconifyProviders = {
     // Wait for 1 second before switching API hosts
     rotate: 1000,
   },
-};</script><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Xinta Yang"><img width="96" loading="lazy" src="/images/1.png" alt="Xinta Yang"></a><div class="site-author-name"><a href="/about/">Xinta Yang</a></div><span class="site-name"></span><sub class="site-subtitle">Welcome to my site! (The characters on the cover page are "lazy cat's cozy home amongst the clouds")</sub><div class="site-description"></div></div><br><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="mailto:xinta.yang@wisc.edu"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:mail-line"></span></span></a></div><div class="site-state-item"><a target="_blank" rel="noopener" href="https://github.com/XintaY"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:github-line"></span></span></a></div><a class="site-state-item hty-icon-button" href="/tags/" title="Tags"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:bookmark-line"></span></span></a></nav><!--hr(style="margin-bottom:0.5rem")--></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Brief-Summary-of-Causal-Inference"><span class="toc-number">1.</span> <span class="toc-text">Brief Summary of Causal Inference</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Potential-outcomes"><span class="toc-number">1.1.</span> <span class="toc-text">Potential outcomes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Graphical-model-SWIG"><span class="toc-number">1.2.</span> <span class="toc-text">Graphical model SWIG</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Learn-Causal-Inference-via-Papers"><span class="toc-number">2.</span> <span class="toc-text">Learn Causal Inference via Papers</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="http://example.com/2022/10/29/causal-inference/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Xinta Yang"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content=""></span><header class="post-header"><h1 class="post-title" itemprop="name headline">Course STAT 888 - A first exposure to causal inference</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="Created: 2022-10-29 10:08:42" itemprop="dateCreated datePublished" datetime="2022-10-29T10:08:42-05:00">2022-10-29</time></div><div class="post-classify"><span class="post-tag"><a class="tag-item" href="/tags/causal-inference/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:bookmark-line"></span></span><span class="tag-name">causal inference</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><br>
+};</script><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="Table of Contents"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="Overview"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="Xinta Yang"><img width="96" loading="lazy" src="/images/1.png" alt="Xinta Yang"></a><div class="site-author-name"><a href="/about/">Xinta Yang</a></div><span class="site-name"></span><sub class="site-subtitle">Welcome to my site! (The characters on the cover page are "lazy cat's cozy home amongst the clouds")</sub><div class="site-description"></div></div><br><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="Home"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="mailto:xinta.yang@wisc.edu"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:mail-line"></span></span></a></div><div class="site-state-item"><a target="_blank" rel="noopener" href="https://github.com/XintaY"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:github-line"></span></span></a></div><a class="site-state-item hty-icon-button" href="/tags/" title="Tags"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:bookmark-line"></span></span></a></nav><!--hr(style="margin-bottom:0.5rem")--></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Brief-Summary-of-Causal-Inference"><span class="toc-number">1.</span> <span class="toc-text">Brief Summary of Causal Inference</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Potential-outcomes"><span class="toc-number">1.1.</span> <span class="toc-text">Potential outcomes</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Graphical-model-SWIG"><span class="toc-number">1.2.</span> <span class="toc-text">Graphical model SWIG</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Three-identification-theorems"><span class="toc-number">1.3.</span> <span class="toc-text">Three identification theorems</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Estimation-methods"><span class="toc-number">1.4.</span> <span class="toc-text">Estimation methods</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Learn-Causal-Inference-via-Papers"><span class="toc-number">2.</span> <span class="toc-text">Learn Causal Inference via Papers</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="http://example.com/2022/10/29/causal-inference/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="Xinta Yang"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content=""></span><header class="post-header"><h1 class="post-title" itemprop="name headline">Course STAT 888 - A first exposure to causal inference</h1><div class="post-meta"><div class="post-time"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="Created: 2022-10-29 10:08:42" itemprop="dateCreated datePublished" datetime="2022-10-29T10:08:42-05:00">2022-10-29</time></div><div class="post-classify"><span class="post-tag"><a class="tag-item" href="/tags/causal-inference/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:bookmark-line"></span></span><span class="tag-name">causal inference</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><br>
 
-<p>To be continued…</p>
+<p>The whole summary is based on <a target="_blank" rel="noopener" href="https://amy-cochran.gitbook.io/causal-inference/introduction/">Prof. Ane Cochran’s lecture notes</a> <br><br>(To be continued…)</p>
 <blockquote>
 <h2 id="Brief-Summary-of-Causal-Inference"><a href="#Brief-Summary-of-Causal-Inference" class="headerlink" title="Brief Summary of Causal Inference"></a>Brief Summary of Causal Inference</h2></blockquote>
 <h3 id="Potential-outcomes"><a href="#Potential-outcomes" class="headerlink" title="Potential outcomes"></a>Potential outcomes</h3><p> 
@@ -94,6 +98,8 @@ The reason for the difference is that $(Y \,|\, A)$ still allows $Y$ to take val
 </p>
 <br><br>
 
+
+
 <h3 id="Graphical-model-SWIG"><a href="#Graphical-model-SWIG" class="headerlink" title="Graphical model SWIG"></a>Graphical model SWIG</h3><p>To present how variables pass information among each other, we construct a DAG (directed acyclic graph). We denote the set of parent nodes of $X$ by $pa_X$, and parent nodes of $X_i$ by $pa_i$. A very important concept is $\textit{\textbf{Markov compatibility}}$. This says a random variable's distribution only depends on its immediate parent nodes, i.e., other ancester nodes have no effect. Formally speaking, $$P(\bm{x}) = \prod P(x_1 \,|\, pa_i)$$ where $\{X_i\}$ follow a topological ordering (without Markov compatibility, we would need $P(x_i \,|\, x_1, ..., x_{i-1})$.) 
 </p>
 
@@ -102,13 +108,106 @@ The reason for the difference is that $(Y \,|\, A)$ still allows $Y$ to take val
 </p>
 
 <p><img src="/tikz/1.png" loading="lazy"></p>
-<p> An important theorem is for $\textit{\textbf{causal irrelevance}}$. Intuitively, it says if I assign values to two groups of nodes $A$ and $B$. If every path from $X_{A\cup B}$ to $Y$ visits $X_A$ after $X_B$, then $$Y(a, b) = Y(a)$$ Below is a picture showing we don't allow path from $X_B$ to $Y$ without going through $X_A$.  
+<p> An important theorem is for $\textit{\textbf{causal irrelevance}}$. Suppose I assign values to two groups of nodes $A$ and $B$. If every path from $X_{A\cup B}$ to $Y$ visits $X_A$ after $X_B$ (in the original DAG, not SWIG), then $$Y(a, b) = Y(a)$$ Below is a picture showing we don't allow path from $X_B$ to $Y$ without going through $X_A$.  
 </p>
 
 <p><img src="/tikz/2.png" loading="lazy"></p>
 <hr>
-<p> Another important concept is $\textbf{\textit{d-separation}}$. 
+<p> Another important concept is $\textbf{\textit{d-separation}}$. There are three types of relations among nodes in a SWIG: chain, fork, and collider. They describe how information flows from intervention to outcomes (their structures are shown below.) 
 </p>
+
+<p><img src="/tikz/3.png" loading="lazy"></p>
+<p> For chain structure, if node $B$ is not intervened, information flows from node $A$ to node $C$. For fork structure, if node $A$ is not intervened, information flows from node $B$ to node $C$. For collider structure, if node $A$ is not intervened, information does $\textit{not}$ flow from node $B$ to node $C$. We say two sets of nodes $\mathcal{A}$ and $\mathcal{B}$ are d-separated if all paths are blocked in term of the three node structures mentioned here. 
+</p>
+<br><br>
+
+
+
+<h3 id="Three-identification-theorems"><a href="#Three-identification-theorems" class="headerlink" title="Three identification theorems"></a>Three identification theorems</h3><p> Now we introduce three theorems that can help to indentify the expectation of the poential outcome. 
+The first theorem is $\textbf{\textit{extended g-formula}}$. It says if we assign values to a set of nodes $\mathcal{A}$, then $$E(g(Y_a) \,|\, Y_{pa-\mathcal{A}, \bm{a}} = \bm{x}) = E(g(Y) \,|\, Y_{pa-\mathcal{A}} = \bm{x}, Y_{pa\cap \mathcal{A}} = \bm{a})$$ An example is given here, where $\mathcal{A} = \{A, L\}$ and $\bm{a} = \{a, l\}$, 
+</p>
+
+<p><img src="/tikz/4.png" loading="lazy"></p>
+<p> An important note is that when invoking the g-formula, we need to measure all parent nodes of $Y$. With the same example above, if we want to estimate $E(Y_{a,l})$, we first need to add some conditions: $E(Y_{a,l} \,|\, X = x)$, and then use the tower property $E(Y) = E(E(Y \,|\, X))$ to finish the computation of $EY$. 
+</p>
+
+<hr>
+<p> The second widely used theorem is $\textit{\textbf{backdoor adjustment}}$. We first define what are backdoor nodes. Suppose we have two sets of nodes $W$ and $A$, and potential outcome $Y$. We assign $\bm{a}$ to the set of nodes $A$. If $W$ satisfies (1) $A \perp Y_a \,|\, W_a$ in the SWIG; (2) $W_a \perp a$ in the SWIG; then we say $W$ is a set of backdoor nodes w.r.t. $A$ and $Y$. Then, the theorem says, $$E(Y_a) = E(E(Y \,|\, A = a, W))$$ an example is below where $X$ satisfies the backdoor node criteria ($V_a$ does not.) 
+</p> 
+
+<p><img src="/tikz/5.png" loading="lazy"></p>
+<hr>
+<p> The third theorem is $\textbf{\textit{frontdoor adjustment}}$. We still start from the definition of frontdoor  nodes. We say the set $B$ is frontdoor node w.r.t. $(I, J)$ if (1) $J_a \perp a \,|\, B_a$; (2) $I \perp B_a$; (3) $J_b \perp B \,|\, I_b$. In condition (1) and (2), we assign $\bm{a}$ to $I$, and in condition (2), we assign $\bm{b}$ to $B$. Below is a picture of the above criteria from prof. Ane Cochran's lecture notes, 
+</p>
+
+<p><img src="/tikz/6.png" loading="lazy"></p>
+<p> The theorem then says, $$E(J_a) = E(g(B) \,|\, I = a)$$ where $g(b) = E(E(J \,|\, B = b, I))$. 
+</p>
+<br><br>
+
+
+
+<h3 id="Estimation-methods"><a href="#Estimation-methods" class="headerlink" title="Estimation methods"></a>Estimation methods</h3><p> We first give definitions of empirical expectations. Suppose we observe $n$ data points, denoted as $(X^{(n)}, A^{(n)}, Y^{(n)})$. Define empirical expectation, $$E_N(g(X, A, Y)) = \frac{1}{N}\sum_1^N g(X^{(n)}, A^{(n)}, Y^{(n)})$$ $$E_N(g(X, A, Y) \,|\, h(X, A, Y) = u) = \frac{E_N(g(X, A, Y)\cdot 1_{h(X, A, Y) = u})}{E_N(1_{h(X, A, Y) = u})}$$ The intuition of the conditional expectation is that suppose out of 10 data points, 5 of which has $h(X, A, Y) = u$, and out of those 5 points, 2 of them have $g = 1$ and others have $g = 0$. So the conditional expectation would be $2/5$, and the given formula indeed outputs this value. 
+</p>
+
+<hr>
+<p> Now consider the simple model with discrete r.v. $X$ as a backdoor node, which leads to $$E(Y_a) = E(E(Y \,|\, A = a, X)) = \sum_x P(X = x)\cdot E(Y \,|\, A = a, X = x) \approx \sum_x P_N(X = x)\cdot E_N(Y \,|\, A = a, X = x)$$ 
+We also present an approximated variance of this point estimate (so we may construct confidence interval). Remember we don't consider $X$ and $A$ as random. 
+$$
+\begin{align*} 
+var(E_N(Y \,|\, A = a, X = x)) &= var\left(\frac{E_N(Y\cdot 1_{A = a, X = x})}{E_N(1_{A = a, X = x})} \right) \\
+&= \frac{var\left( \sum_i Y_i\cdot 1_{A_i = a, X_i = x} \right)}{N^2P_N^2(A = a, X = x)} \\
+&= \frac{\sum_i var(Y_i\cdot 1_{A_i = a, X_i = x})}{N^2P_N^2(A = a, X = x)} \hspace{2em} \text{(by independent r.v. $Y_i$)} \\ 
+&= \frac{var(Y \,|\, A = a, X = x)}{NP_N(X = x, A = a)}
+\end{align*}
+$$
+for the last equality, one can check by rearranging the fractions, with $var(Y \,|\, X = x, A = a) = \frac{\frac{1}{N}\cdot \sum_i var(Y_i\cdot 1_{A_i = a, X_i = x})}{P_N(X = x, A = a)}$. This is because we assume $\{Y_i \,|\, A_i = a, X_i = x\}$ are i.i.d. with variance say $\sigma_{(a, x)}^2$. Then, the conditional variance is $\sigma_{(a, x)}^2$, and the fraction here gives exactly this quantity. Note we need to find a way to estimate $var(Y | A = a, X = x)$, and a common choice is to use sample variance of that group as the estimator. 
+Now we follow up with an example. Suppose we sampled the weight gain as people age being the following, 
+$$
+\begin{array}{c|c|c}
+& \text{Male } (N = 762) & \text{Female } (N = 804) \\ \hline
+\text{Quit} & \text{avg. gain} = 4.83 & 4.16 \\ \hline
+\text{Did not quit} & 2.00 & 1.97
+\end{array}
+$$
+so based on the data, we hypothesize that smoking makes it harder to gain weight. Suppose $A$ is whether a person quits smoking (1 means quit, and 0 means not quit), and $X$ is the gender (1 means female, and 0 means male), which acts as a backdoor node. Using the empirical expectation formulae presented above, we have, 
+$$
+\begin{align*}
+E(Y_1 - Y_0) &\approx \sum_{x = 0, 1} P_N(X = x)\cdot (E_N(Y \,|\, A = 1, X = x) - E_N(Y \,|\, A = 0, X = x)) \\ 
+&= \frac{762}{1566}\cdot (4.83 - 2.00) + \frac{804}{1566}\cdot (4.16 - 1.97) \\
+&= 2.50
+\end{align*}
+$$
+</p>
+
+<hr>
+<p> For discrete r.v. we can use the empirical expectation formulae presented above, but for continuous r.v., it's harder. So, we introduce $\textit{\textbf{outcome regression}}$ method. 
+The general idea is to first propose a function $\mu_\theta(X, A)$ with some unknown parameters $\theta$, that has $$\mu_\theta(X, A) = E(Y \,|\, X, A)$$ Then we find some best fit $\hat{\theta}$, and use $$E(Y_a) \approx E_N(\mu_{\hat{\theta}}(X, a))$$ The choice of $\mu$ is totally upto us, some common choices are linear models and neural networks. And then the fitting of $\hat{\theta}$ can be taken as $$\hat{\theta} = \argmin_\theta E_N(Y - \mu_\theta(X, A))^2$$
+Now we provide an example of linear model. Suppose $\mu_\theta(X, A) = (X \,\, A)\theta$, where $\theta = (\theta_1 \,\, \theta_2)^T$. Then, 
+$$\hat{\theta} = \argmin_\theta E_N(Y - (X \,\, A)\theta)^2$$ implies $\hat{\theta}$ satisfies, 
+$$E_N((Y - (X \,\, A)\hat{\theta})\cdot (X \,\, A)) = 0$$ 
+Here $X$ and $A$ can be both scalers or vectors (if they are vectors, then $\theta_1$ and $\theta_2$ are both vectors too.)
+</p>
+
+<hr>
+<p> Next, we discuss $\textit{\textbf{propensity score}}$ approach. 
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
