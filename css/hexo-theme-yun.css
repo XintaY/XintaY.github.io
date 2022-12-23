@@ -124,7 +124,7 @@ html.dark {
   --hty-secondary-text-color: #555;
   --post-block-bg-color: #fff;
   --smc-link-color: #0078e7;
-  --yun-bg-image: url("/images/3-10.jpeg");
+  --yun-bg-image: url("/images/3.png");
   --banner-line-color: #000;
   --banner-char-color: #000;
 }
@@ -135,7 +135,7 @@ html.dark {
   --hty-secondary-text-color: #eee;
   --post-block-bg-color: #1b1f2e;
   --smc-link-color: #3ca1ff;
-  --yun-bg-image: url("/images/3.jpeg");
+  --yun-bg-image: url("https://cdn.yunyoujun.cn/img/bg/galaxy.jpg");
   --banner-line-color: #fff;
   --banner-char-color: #fff;
   --banner-char-bg-color: rgba(0,0,0,0.5);
@@ -294,14 +294,14 @@ body::before {
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 0.5;
+  opacity: 0.9;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.9;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -309,7 +309,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.9;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -317,7 +317,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.9;
   }
 }
 @keyframes bgFadeIn {
@@ -325,7 +325,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.9;
   }
 }
 body {
@@ -1844,7 +1844,7 @@ input {
   }
 }
 .is-home #menu-btn {
-  display: flex;
+  display: none;
 }
 .is-home .sidebar {
   left: -20rem;
