@@ -294,14 +294,14 @@ body::before {
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 0.9;
+  opacity: 0.5;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 0.9;
+    opacity: 0.5;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -309,7 +309,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.9;
+    opacity: 0.5;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -317,7 +317,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.9;
+    opacity: 0.5;
   }
 }
 @keyframes bgFadeIn {
@@ -325,7 +325,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.9;
+    opacity: 0.5;
   }
 }
 body {
@@ -1292,6 +1292,7 @@ input {
   transition-delay: 0s;
   background-image: linear-gradient(to top, #dfe9f3 0%, #fff 100%); /*var(--post-card-bg-color);*/
   box-shadow: var(--post-card-shadow);
+  border-radius: 30px;
 /* tag 容器 */
 }
 .post-card:hover {
