@@ -1027,6 +1027,7 @@ input {
 .post-meta-item-icon {
   display: inline-block;
   color: var(--text-color, --hty-secondary-text-color);
+  margin-left: 1rem;
 }
 .post-meta-divider {
   height: 25px;
