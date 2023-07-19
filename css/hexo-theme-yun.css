@@ -124,7 +124,7 @@ html.dark {
   --hty-secondary-text-color: #555;
   --post-block-bg-color: #fff;
   --smc-link-color: #579bb1;
-  --yun-bg-image: url("/images/2.png");
+  --yun-bg-image: url("/images/4.png");
   --banner-line-color: #000;
   --banner-char-color: #000;
 }
@@ -294,14 +294,14 @@ body::before {
   background-repeat: no-repeat;
   animation-name: bgFadeIn;
   animation-duration: 2s;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 @-moz-keyframes bgFadeIn {
   from {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 @-webkit-keyframes bgFadeIn {
@@ -309,7 +309,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 @-o-keyframes bgFadeIn {
@@ -317,7 +317,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 @keyframes bgFadeIn {
@@ -325,7 +325,7 @@ body::before {
     opacity: 0;
   }
   to {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 body {
