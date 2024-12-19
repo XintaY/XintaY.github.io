@@ -1882,7 +1882,7 @@ input {
   background-color: var(--sidebar-bg-color, #fff);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom 5rem center;
+  background-position: bottom center;
   text-align: center;
   z-index: 10;
   transition-property: all;
