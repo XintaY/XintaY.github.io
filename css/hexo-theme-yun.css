@@ -1880,9 +1880,9 @@ input {
   width: 20rem;
   background-image: var(--sidebar-bg-image, none);
   background-color: var(--sidebar-bg-color, #fff);
-  background-size: 50%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom 2rem center;
+  background-position: bottom center;
   text-align: center;
   z-index: 10;
   transition-property: all;
