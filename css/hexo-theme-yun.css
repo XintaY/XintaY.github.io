@@ -1829,7 +1829,7 @@ input {
   max-height: 10000px;
 }
 :root {
-  --sidebar-bg-image: url("../../source/images/sidebar.png");
+  --sidebar-bg-image: url("https://i.imgur.com/gTXbCNW.png");
 }
 #menu-btn {
   display: none;
