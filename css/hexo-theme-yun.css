@@ -1829,7 +1829,7 @@ input {
   max-height: 10000px;
 }
 :root {
-  --sidebar-bg-image: url("https://i.imgur.com/c2IBpgM.png");
+  --sidebar-bg-image: url("https://i.imgur.com/4y7cLM6.png");
 }
 #menu-btn {
   display: none;
@@ -1880,7 +1880,7 @@ input {
   width: 20rem;
   background-image: var(--sidebar-bg-image, none);
   background-color: var(--sidebar-bg-color, #fff);
-  background-size: contain;
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: bottom 2rem center;
   text-align: center;
